@@ -33,6 +33,22 @@ Todo...
 
 Todo...
 
+### Routes
+
+Should be taken from page, or have them somewhere separate?
+
+Default routes can be generated from page dir location (using _ technique)
+
+```yml
+hello_route:
+  page: hello
+  links:
+    - lang: en
+      route: /hello
+    - lang: 'no'
+      route: /no/hello
+```
+
 ### Assets
 
 Todo...
